@@ -48,14 +48,19 @@ $googleFaq = [
 </head>
 <body>
     <header>
-        <h1>Privacy e Termini</h1>
-        <ul>
-            <li>Introduzione</li>
-            <li>Norme sulla privacy</li>
-            <li>Termini di servizio</li>
-            <li>Tecnologie</li>
-            <li>Domande frequenti</li>
-        </ul>
+        <div class="logo-header">
+            <img id="logo" src="https://1000marche.net/wp-content/uploads/2020/03/Google-logo.png">
+            <h1>Privacy e Termini</h1>
+        </div>
+        <nav>
+            <ul>
+                <li>Introduzione</li>
+                <li>Norme sulla privacy</li>
+                <li>Termini di servizio</li>
+                <li>Tecnologie</li>
+                <li class="active">Domande frequenti</li>
+            </ul>
+        </nav>
     </header>
 
     <main>
